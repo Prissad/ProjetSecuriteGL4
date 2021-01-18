@@ -27,7 +27,7 @@ do
 		  case $choice in
 			1)echo "saisir le message à coder : "
 			read message_a_coder
-			echo " le message a été codé : "
+			echo "le message a été codé : "
 			echo $message_a_coder |base64 ;;
 			2)echo "saisir le message  à decoder : "
 			read message_a_decoder
